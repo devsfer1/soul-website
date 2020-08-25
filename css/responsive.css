@@ -1,0 +1,28 @@
+/* === Header === */
+@media(max-width: 800px) {
+    .main-container {
+        padding: 0;
+    }
+
+    .menu-bars:before {
+        content: "\f0c9"; 
+        font-family: FontAwesome;  
+        position: fixed;
+        z-index: 9999;
+        
+        right: 0;
+    }
+    
+    .nav-items {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        flex-direction: column;
+        line-height: 60px;
+        
+        text-align: center;
+        background: #4287f5;
+        padding-top: 20px;
+        z-index: ;
+    }
+}

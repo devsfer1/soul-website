@@ -1,0 +1,97 @@
+/* === Wrapper's, Váriaveis, Containers etc === */
+.main-container {
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+
+@media(max-width: 1024px) {
+    .main-container {
+        padding: 0 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    .main-container {
+        padding: 0 20px;
+    }
+}
+
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: #4287f5;
+}
+
+
+
+
+/* === Header === */
+header {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.nav-logo {
+    font-weight: bold;
+    color: var(--cor-principal);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#check {
+    display: none;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items-list {
+    margin: 0 0 0 30px;
+}
+
+.nav-link {
+    color: var(--cor-principal);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* === Home === */
+.home-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.home-img {
+    width: 600px;  
+}
+
+.home-text {
+    margin-top: 150px;
+}
+
+.home-text-title {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+}
+
+.home-text-subtitle {
+    font-size: 18px;
+    letter-spacing: 0.09em;
+    color: #362F2E;
+    margin-bottom: 40px;
+}
+
+.home-text-btn {
+    background-color: var(--cor-secundaria);
+    color: #FFFFFF;
+    padding: 15px 40px; 
+    border-radius: 40px;
+}
