@@ -1,28 +1,111 @@
 /* === Header === */
 @media(max-width: 800px) {
-    .main-container {
-        padding: 0;
+
+    header {
+        position: fixed;
+        background-color: #4287f5;
     }
 
+    .navbar {
+        background-color: #4287f5;
+        color: #FFFFFF;
+    }
+
+    .nav-logo {
+        color: #FFFFFF;     
+    }
+   
     .menu-bars:before {
         content: "\f0c9"; 
         font-family: FontAwesome;  
-        position: fixed;
-        z-index: 9999;
-        
-        right: 0;
+        font-size: 24px;
     }
     
     .nav-items {
-        width: 100%;
-        height: 100vh;
         position: absolute;
-        flex-direction: column;
-        line-height: 60px;
-        
+        display: block;
         text-align: center;
-        background: #4287f5;
-        padding-top: 20px;
-        z-index: ;
+        background-color: #4287f5;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        overflow: auto;
+        max-height: 85vh;
+        line-height: 80px;
+        transition: linear 0.3s;
+        z-index: 999;
+    }
+
+    .nav-items-list {
+        margin: 0;
+        border-bottom: solid #2e2e2e 1px;      
+    }
+
+    .nav-items-list:last-child {
+        border: none;
+    }
+
+    .nav-link {
+        display: block;
+        color: #FFFFFF;
+    }
+
+    #check:checked ~ .menu-bars:before {
+        content: "\f00d  "; 
+        font-family: FontAwesome;
+    }   
+
+    #check:checked ~ .nav-items {
+        left: 0;
+    }
+}
+
+/* === Home === */
+@media(max-width: 1225px) {
+    .home-img {
+        width: 450px;
+    }
+
+    .home-text {
+        margin-top: 80px;
+    }
+
+    .home-text-title {
+        font-size: 32px;
+        max-width: 35ch;
+    }
+
+    .home-text-subtitle {
+        font-size: 16px;
+        max-width: 35ch;
+        line-height: 20px;
+    }
+
+    .home-container {
+        padding-top: 40px;
+    }
+}
+
+@media(max-width: 700px) {
+    .home-container {
+        flex-direction: column;
+    }
+
+    .home-img {
+        max-width: 400px;
+    }
+
+    .home-text {
+        margin-top: 0;
+    }
+
+    .home-text-title {
+        font-size: 28px;
+        
+    }
+
+    .home-text-subtitle {
+        font-size: 14px;
+        
     }
 }

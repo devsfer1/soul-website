@@ -28,7 +28,6 @@
 /* === Header === */
 header {
     width: 100%;
-    padding-top: 30px;
 }
 
 .nav-logo {
@@ -41,6 +40,8 @@ header {
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 60px;
 }
 
 #check {
@@ -84,8 +85,8 @@ header {
 
 .home-text-subtitle {
     font-size: 18px;
-    letter-spacing: 0.09em;
-    color: #362F2E;
+    letter-spacing: 0.06em;
+    color: #1a1919;
     margin-bottom: 40px;
 }
 
