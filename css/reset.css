@@ -20,3 +20,36 @@ a {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* === Fonts Reset's === */
+
+a,p {
+    font-size: 18px;
+}
+
+@media(max-width: 1225px) {
+    a,p {font-size: 16px}
+}
+
+@media(max-width: 600px) {
+    a,p {font-size: 14px}
+}
+
+
+h1 {
+    font-size: 48px;
+}
+
+@media(max-width: 1225px) {
+    h1 {font-size: 32px;}
+}
+
+
+h2 {
+    font-size: 32px;
+}
+
+@media(max-width: 1225px) {
+    h2 {font-size: 24px;}
+}
+

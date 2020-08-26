@@ -23,8 +23,6 @@
 }
 
 
-
-
 /* === Header === */
 header {
     width: 100%;
@@ -59,13 +57,13 @@ header {
 .nav-link {
     color: var(--cor-principal);
     font-weight: 500;
-    font-size: 18px;
 }
 
 /* === Home === */
 .home-container {
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 60px;
 }
 
 .home-img {
@@ -79,14 +77,12 @@ header {
 }
 
 .home-text-title {
-    font-size: 48px;
     font-weight: 900;
     letter-spacing: 0.02em;
     margin-bottom: 20px;
 }
 
 .home-text-subtitle {
-    font-size: 18px;
     letter-spacing: 0.06em;
     color: #1a1919;
     margin-bottom: 40px;
@@ -97,4 +93,32 @@ header {
     color: #FFFFFF;
     padding: 15px 40px; 
     border-radius: 40px;
+    transition: ease 0.5s;
+}
+
+.home-text-btn:hover {
+    background-color: #0048ba;
+}
+
+
+/* === Banner-1 === */
+.banner-1 {
+    width: 100%;
+    background-color: var(--cor-secundaria);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.banner-1-title {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.banner-1-subtitle {
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    max-width: 60ch;
+    margin: 0 auto;
 }

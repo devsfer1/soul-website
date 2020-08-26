@@ -85,7 +85,7 @@
     }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 600px) {
     .home-container {
         flex-direction: column;
     }
@@ -96,5 +96,14 @@
 
     .home-text-subtitle {
         font-size: 14px;
+    }
+}
+
+
+/* === Banner-1 === */
+
+@media(max-width: 800px) {
+    .banner-1-subtitle{
+        max-width: 40ch;
     }
 }
