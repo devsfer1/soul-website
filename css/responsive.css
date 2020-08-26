@@ -32,7 +32,7 @@
         overflow: auto;
         max-height: 85vh;
         line-height: 60px;
-        transition: linear 0.2s;
+        transition: linear 0.3s;
     }
 
     .nav-items-list {
