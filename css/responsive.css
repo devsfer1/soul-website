@@ -32,7 +32,7 @@
         overflow: auto;
         max-height: 85vh;
         line-height: 80px;
-        transition: linear 0.3s;
+        transition: linear 0.2s;
         z-index: 999;
     }
 
@@ -100,12 +100,10 @@
     }
 
     .home-text-title {
-        font-size: 28px;
-        
+        font-size: 28px;   
     }
 
     .home-text-subtitle {
         font-size: 14px;
-        
     }
 }
