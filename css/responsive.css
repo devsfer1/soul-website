@@ -67,16 +67,10 @@
 @media(max-width: 1225px) {
     .home-text {
         margin-top: 80px;
-    }
-
-    .home-text-title {
-        font-size: 32px;
         max-width: 35ch;
     }
 
     .home-text-subtitle {
-        font-size: 16px;
-        max-width: 35ch;
         line-height: 20px;
     }
 
@@ -101,9 +95,60 @@
 
 
 /* === Banner-1 === */
-
 @media(max-width: 800px) {
     .banner-1-subtitle{
         max-width: 40ch;
+    }
+}
+
+
+/* === Sobre === */
+@media(max-width: 1225px) {
+   .sobre-container {
+       justify-content: space-between;
+   }
+
+   .sobre-img {
+       max-width: 450px;
+   }
+}
+
+
+@media(max-width: 900px) {  
+    .sobre-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sobre-text {
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .sobre-text-subtitle {
+        line-height: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .sobre-text {
+        max-width: 35ch;
+    }
+
+    .sobre-cards-container {
+        justify-content: center;
+    }
+
+    .sobre-card {
+        width: 280px;
+        height: 200px;
+    }
+
+    .sobre-card-title {
+        font-size: 18px;
+    }
+
+    .sobre-card-subtitle {
+        font-size: 12px;
     }
 }

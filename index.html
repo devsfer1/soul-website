@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início - Soul</title>
     <!-- Main Stylesheet Files -->
-    <link rel="stylesheet" href="css/reset.css" media="all"> 
-    <link rel="stylesheet" href="css/style.css" media="all">
-    <link rel="stylesheet" href="css/responsive.css" media="all">
+    <link rel="preload" href="css/reset.css" as="style" media="all"> 
+    <link rel="preload" href="css/style.css" as="style" media="all">
+    <link rel="preload" href="css/responsive.css" as="style" media="all">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
      <!-- CSS Libraries  -->
      <script src="https://kit.fontawesome.com/6465650075.js" crossorigin="anonymous"></script>
@@ -47,9 +51,41 @@
         </div>
     </section>
 
+    <!-- Banner-1  -->
     <div class="banner-1">
         <h2 class="banner-1-title">Por que nos contratar?</h2>
         <p class="banner-1-subtitle">Nós temos a solução que sua empresa precisa para Web Design, Manutenção Web e Criação de sites. Com profissionais muito capacitados para poder realizar o melhor trabalho possível em um tempo agrádavel para o cliente. Além disso disponibilizamos de um suporte 24H, dessa forma sempre estamos disponíveis para atender as necessidades do cliente.</p>
     </div>
+
+    <!-- Sobre  -->
+    <section id="sobre">
+        <div class="main-container">
+            <div class="sobre-container">
+                <img src="images/sobre-img.svg" alt="" class="sobre-img">
+                <div class="sobre-text">
+                    <h2 class="sobre-text-title">Surgimos com o único propósito de fazer a vida do cliente mais fácil.</h2>
+                    <p class="sobre-text-subtitle">Nascemos em 2018 com um único e simples propósito: tornar sua vida mais simples. Nossa empresa nasceu através da ideia de diversos desenvolvedores em poder reunir todo seu conhecimento e levar ao cliente soluções tecnológicas simples e rápidas para seu negócio.</p>
+                    <a href="" class="home-text-btn">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="sobre-cards-container">
+                <div class="sobre-card">
+                    <img src="images/Icon-Sobre-1.png" alt="" class="sobre-card-icon">
+                    <h3 class="sobre-card-title">Manutenção de Websites</h3>
+                    <p class="sobre-card-subtitle">Consertamos o seu Website com um código limpo e legível.</p>
+                </div>
+                <div class="sobre-card">
+                    <img src="images/Icon-Sobre-2.png" alt="" class="sobre-card-icon">
+                    <h3 class="sobre-card-title">Web Design</h3>
+                    <p class="sobre-card-subtitle">Seu site com o visual mais atualizado e mais bonito do mercado.</p>
+                </div>
+                <div class="sobre-card">
+                    <img src="images/Icon-Sobre-3.png" alt="" class="sobre-card-icon">  
+                    <h3 class="sobre-card-title">Atendimento 24Horas</h3>   
+                    <p class="sobre-card-subtitle">Estaremos sempre aqui quando você precisar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
