@@ -127,7 +127,8 @@ header {
 /* === Sobre === */
 .sobre-container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    
     margin-top: 60px;
     margin-bottom: 80px;
 }
