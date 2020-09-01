@@ -239,5 +239,72 @@ header {
 .serviços-img {
     width: 100%;
     max-width: 700px;
-    height: auto;   
+    height: auto;  
+    margin-bottom: 40px; 
+}
+
+.serviços-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.serviço-card {
+    width: 350px;
+    height: 520px;
+    box-shadow: 0px 0px 7px 1px rgba(120,172,255,0.32);
+    margin: 0 20px 20px 0px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.serviço-card-title {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-secundaria);
+    margin-bottom: 20px;
+}
+
+.serviço-card-title::after {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 2px;
+    background-color: var(--cor-secundaria);
+    margin-top: 10px;
+}
+
+.serviço-card-preço {
+    font-size: 32px;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.serviço-card-btn {
+    background-color: var(--cor-secundaria);
+    color: #FFFFFF;
+    padding: 15px 20px;
+    width: 200px; 
+    border-radius: 40px;
+    transition: ease 0.5s;    
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.serviço-card-detalhes {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    width: 21px; 
+    height: 21px;
+}
+
+.card-detalhes-text {
+    margin-left: 10px;
+    color: var(--cor-secundaria);
 }

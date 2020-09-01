@@ -121,10 +121,6 @@
         align-items: flex-start;
     }
 
-    .sobre-card {
-        margin: 0 0 40px 0;
-    }
-
     .sobre-text {
         padding-top: 20px;
         margin: 0;
@@ -143,6 +139,7 @@
     .sobre-card {
         width: 280px;
         height: 200px;
+        margin: 0 0 40px 0;
     }
 
     .sobre-card-title {
@@ -170,5 +167,37 @@
 @media(max-width: 600px) {
     .banner-2 {
         padding: 30px 20px;
+    }
+}
+
+/* === Serviços === */
+@media(max-width:600px) {
+    .serviço-card {
+        width: 250px; 
+        height: 360px;
+    }
+
+    .serviço-card-title {
+        font-size: 18px;
+    }
+
+    .serviço-card-preço {
+        font-size: 24px;
+    }
+
+    .serviço-card-btn {
+        margin-bottom: 25px;
+        padding: 10px 10px;
+        font-size: 18px;
+        width: 150px;
+    } 
+
+    .card-img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .serviço-card-detalhes {
+        margin-bottom: 10px;
     }
 }
