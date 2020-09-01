@@ -24,12 +24,9 @@ body {
 /* === Fonts Reset's === */
 
 a,p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
-@media(max-width: 1225px) {
-    a,p {font-size: 16px}
-}
 
 @media(max-width: 600px) {
     a,p {font-size: 14px}
