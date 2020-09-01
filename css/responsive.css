@@ -121,6 +121,10 @@
         align-items: flex-start;
     }
 
+    .sobre-card {
+        margin: 0 0 40px 0;
+    }
+
     .sobre-text {
         padding-top: 20px;
         margin: 0;
