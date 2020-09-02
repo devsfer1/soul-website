@@ -122,21 +122,21 @@ header {
     width: 100%;
     background-color: var(--cor-secundaria);
     color: #FFFFFF;
-    text-align: center;
-    padding: 60px 0;
+    padding: 60px 0px;
 }
 
 .banner-1-title {
     margin-bottom: 40px;
     font-size: 32px;
     font-weight: 400;
+    text-align: center;
 }
 
 .banner-1-subtitle {
     font-weight: 300;
     line-height: 32px;
     letter-spacing: 0.06em;
-    max-width: 60ch;
+    max-width: 90ch;
     margin: 0 auto;
 }
 
@@ -229,6 +229,7 @@ header {
 
 .banner-2-title {
     margin-right: 80px;
+    font-weight: 400;
 }
 
 .btn-banner-2 {
