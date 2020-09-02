@@ -90,7 +90,6 @@ header {
 }
 
 .home-text-title {
-    font-weight: 400;
     letter-spacing: 0.02em;
     margin-bottom: 30px;
 }
@@ -100,8 +99,7 @@ header {
     color: #1a1919;
     margin-bottom: 40px;
     max-width: 60ch;
-    line-height: 32px;
-    font-weight: 300;
+    line-height: 32px;  
 }
 
 .home-text-btn {
@@ -241,6 +239,10 @@ header {
 }
 
 /* === Serviços === */
+#serviços {
+    margin-bottom: 60px;
+}
+
 .serviços-img {
     width: 100%;
     max-width: 700px;
@@ -317,4 +319,47 @@ header {
 .card-detalhes-text {
     margin-left: 10px;
     color: var(--cor-secundaria);
+}
+
+
+/* === Equipe === */
+.equipe-container {
+    display: flex;
+}
+
+.equipe-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.equipe-text {
+    margin-top: 70px;
+    margin-right: 80px;
+}
+
+.equipe-text-title {
+    margin-bottom: 30px;
+}
+
+.equipe-text-subtitle {
+    max-width: 50ch; 
+    margin-bottom: 40px;  
+}
+
+.equipe-btn-1 {
+    margin-right: 40px;
+    background-color: var(--cor-secundaria);
+    color: #FFFFFF;
+    padding: 15px 40px; 
+    border-radius: 40px;
+    transition: ease 0.5s;
+}
+
+.equipe-btn-2 {
+    background-color: #DFE8F5;
+    color: #0E0E0E;
+    padding: 15px 40px; 
+    border-radius: 40px;
+    transition: ease 0.5s;    
 }
