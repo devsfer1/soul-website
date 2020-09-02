@@ -90,17 +90,18 @@ header {
 }
 
 .home-text-title {
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.02em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .home-text-subtitle {
     letter-spacing: 0.06em;
     color: #1a1919;
     margin-bottom: 40px;
-    max-width: 80ch;
-    line-height: 24px;
+    max-width: 60ch;
+    line-height: 32px;
+    font-weight: 300;
 }
 
 .home-text-btn {
@@ -128,11 +129,12 @@ header {
 .banner-1-title {
     margin-bottom: 40px;
     font-size: 32px;
+    font-weight: 400;
 }
 
 .banner-1-subtitle {
     font-weight: 300;
-    line-height: 24px;
+    line-height: 32px;
     letter-spacing: 0.06em;
     max-width: 60ch;
     margin: 0 auto;
@@ -161,14 +163,16 @@ header {
 }
 
 .sobre-text-title {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
 }
 
 .sobre-text-subtitle {
     letter-spacing: 0.06em;
-    line-height: 24px;
+    line-height: 32px;
     margin-bottom: 40px;
-    max-width: 80ch;
+    max-width: 50ch;
+    font-weight: 300;
 }
 
 .sobre-cards-container {
@@ -292,6 +296,11 @@ header {
     transition: ease 0.5s;    
     text-align: center;
     margin-bottom: 80px;
+    transition: ease 0.5s;
+}
+
+.serviço-card-btn:hover {
+    background-color: #0048ba;    
 }
 
 .serviço-card-detalhes {
