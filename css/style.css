@@ -188,12 +188,6 @@ header {
     border-radius: 20px;
     margin: 0 40px 30px 0;
     padding: 0 20px;
-    cursor: pointer;
-    transition: ease 0.4s;
-}
-
-.sobre-card:hover {
-    transform: scale(1.05);
 }
 
 .sobre-card-icon {
@@ -239,6 +233,10 @@ header {
     transition: ease 0.5s;    
 }
 
+.btn-banner-2:hover {
+    background-color: #deffe7;
+}
+
 /* === Serviços === */
 #serviços {
     margin-bottom: 60px;
@@ -258,10 +256,10 @@ header {
 }
 
 .serviço-card {
-    width: 350px;
-    height: 520px;
+    width: 300px;
+    height: 500px;
     box-shadow: 0px 0px 7px 1px rgba(120,172,255,0.32);
-    margin: 0 20px 20px 0px;
+    margin: 0 30px 20px 0px;
     border-radius: 10px;
     padding: 30px;
     display: flex;
@@ -360,6 +358,10 @@ header {
     margin-bottom: 20px;
 }
 
+.equipe-btn-1:hover {
+    background-color: #0048ba;
+}
+
 .equipe-btn-2 {
     background-color: #DFE8F5;
     color: #0E0E0E;
@@ -407,4 +409,8 @@ header {
     border-radius: 40px;
     transition: ease 0.5s;    
     display: inline-block;    
+}
+
+.contato-btn:hover {
+    background-color: #deffe7;    
 }
