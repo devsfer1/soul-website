@@ -203,3 +203,25 @@
         margin-bottom: 10px;
     }
 }
+
+/* === Equipe === */
+@media(max-width: 900px) {
+    .equipe-container {
+        flex-direction: column-reverse
+    }
+
+    .equipe-text {
+        margin-top: 30px;
+    }
+}
+
+/* === Contato === */
+@media(max-width: 900px) {
+    .contato-container {
+        flex-direction: column-reverse;
+    }
+
+    .contato-text-title {
+        font-size: 32px;
+    }
+}

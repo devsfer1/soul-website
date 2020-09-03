@@ -87,6 +87,7 @@ header {
 
 .home-text {
     margin-top: 150px;
+    flex-grow:
 }
 
 .home-text-title {
@@ -325,17 +326,17 @@ header {
 /* === Equipe === */
 .equipe-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .equipe-img {
     width: 100%;
     height: auto;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .equipe-text {
     margin-top: 70px;
-    margin-right: 80px;
 }
 
 .equipe-text-title {
@@ -345,6 +346,7 @@ header {
 .equipe-text-subtitle {
     max-width: 50ch; 
     margin-bottom: 40px;  
+    line-height: 32px;
 }
 
 .equipe-btn-1 {
@@ -354,6 +356,8 @@ header {
     padding: 15px 40px; 
     border-radius: 40px;
     transition: ease 0.5s;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .equipe-btn-2 {
@@ -362,4 +366,45 @@ header {
     padding: 15px 40px; 
     border-radius: 40px;
     transition: ease 0.5s;    
+    display: inline-block;
+}
+
+/* === Contato === */
+#contato {
+    background-color: var(--cor-secundaria);
+}
+
+.contato-container {
+    display: flex;
+}
+
+.contato-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.contato-text {
+    color: #FFFFFF;
+    margin-top: 90px;
+}
+
+.contato-text-title {
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.contato-text-subtitle {
+    max-width: 40ch;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.contato-btn {
+    background-color: #FFFFFF;
+    color: var(--cor-secundaria);
+    padding: 15px 40px; 
+    border-radius: 40px;
+    transition: ease 0.5s;    
+    display: inline-block;    
 }
