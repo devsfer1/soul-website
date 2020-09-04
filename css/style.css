@@ -4,6 +4,17 @@
     padding: 0 60px;
 }
 
+@media(max-width: 2800px) {
+    .main-container {
+        padding: 0 220px;
+    }
+}
+
+@media(max-width: 1980px) {
+    .main-container {
+        padding: 0 80px;
+    }
+}
 
 @media(max-width: 1024px) {
     .main-container {
@@ -21,6 +32,7 @@
     --cor-principal: #000000;
     --cor-secundaria: #4287f5;
 }
+
 
 
 /* === Header === */
@@ -80,14 +92,13 @@ header {
 }
 
 .home-img {
-    width: 100%;
-    max-width: 600px;
+    flex: 60%;
     height: auto; 
 }
 
 .home-text {
-    margin-top: 150px;
-    flex-grow:
+    margin-top: 10%;
+    flex: 50%;
 }
 
 .home-text-title {
@@ -151,14 +162,14 @@ header {
 }
 
 .sobre-img{
-    width: 100%;
-    max-width: 600px;
+    flex: 50%;
     height: auto; 
     margin-right: 40px;
 }
 
 .sobre-text {
     padding-top: 80px;
+    flex: 40%;
 }
 
 .sobre-text-title {
@@ -328,13 +339,15 @@ header {
 }
 
 .equipe-img {
-    width: 100%;
     height: auto;
-    max-width: 700px;
+    flex: 50%;
 }
 
 .equipe-text {
     margin-top: 70px;
+    flex: 20%;
+    justify-self: center;
+    align-self: center;
 }
 
 .equipe-text-title {
@@ -374,6 +387,7 @@ header {
 /* === Contato === */
 #contato {
     background-color: var(--cor-secundaria);
+    margin-bottom: 180px;
 }
 
 .contato-container {
@@ -381,14 +395,15 @@ header {
 }
 
 .contato-img {
-    width: 100%;
-    max-width: 600px;
+    flex: 60%;
     height: auto;
 }
 
 .contato-text {
     color: #FFFFFF;
     margin-top: 90px;
+    flex: 40%;
+    justify-self: center;
 }
 
 .contato-text-title {
@@ -413,4 +428,16 @@ header {
 
 .contato-btn:hover {
     background-color: #deffe7;    
+}
+
+/* === Footer === */
+footer {
+    width: 100%;
+    background-color: var(--cor-secundaria);
+    padding: 60px 0 60px 0;
+}
+
+.footer-copy {
+    text-align: center;
+    color: #FFFFFF;
 }
