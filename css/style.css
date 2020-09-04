@@ -387,7 +387,6 @@ header {
 /* === Contato === */
 #contato {
     background-color: var(--cor-secundaria);
-    margin-bottom: 180px;
 }
 
 .contato-container {
