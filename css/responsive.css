@@ -18,7 +18,7 @@
     .menu-bars:before {
         content: "\f0c9"; 
         font-family: FontAwesome;  
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 200;
     }
     
@@ -67,7 +67,7 @@
 /* === Home === */
 @media(max-width: 1225px) {
     .home-text {
-        margin-top: 80px;
+        margin-top: 5em;
         max-width: 35ch;
     }
 
@@ -76,7 +76,7 @@
     }
 
     .home-container {
-        padding-top: 40px;
+        padding-top: 2.5em;
     }
 }
 
@@ -90,7 +90,7 @@
     }
 
     .home-text-subtitle {
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 26px;
     }
 }
@@ -123,7 +123,7 @@
     }
 
     .sobre-text {
-        padding-top: 20px;
+        padding-top: 1.25em;
         margin: 0;
     }
 
@@ -140,15 +140,15 @@
     .sobre-card {
         width: 280px;
         height: 200px;
-        margin: 0 0 40px 0;
+        margin: 0 0 2.5em 0;
     }
 
     .sobre-card-title {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .sobre-card-subtitle {
-        font-size: 12px;
+        font-size: 0.75rem;
         line-height: 24px;
     }
 }
@@ -162,17 +162,17 @@
     }
 
     .banner-2-title {
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
     }
 
     .btn-banner-2 {
-        padding: 10px 30px; 
+        padding: 0.625em 1.875em; 
     }
 }
 
 @media(max-width: 600px) {
     .banner-2 {
-        padding: 30px 20px;
+        padding: 1.875em 1.25em;
     }
 }
 
@@ -184,15 +184,15 @@
     }
 
     .serviço-card-title {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .serviço-card-preço {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .serviço-card-btn {
-        margin-bottom: 25px;
+        margin-bottom: 1.563em;
         padding: 10px 10px;
         font-size: 18px;
         width: 150px;
@@ -204,7 +204,7 @@
     }
 
     .serviço-card-detalhes {
-        margin-bottom: 10px;
+        margin-bottom: 0.625em;
     }
 }
 
@@ -215,7 +215,7 @@
     }
 
     .equipe-text {
-        margin-top: 30px;
+        margin-top: 1.875em;
     }
 }
 
@@ -226,7 +226,7 @@
     }
 
     .contato-text-title {
-        font-size: 32px;
+        font-size: 2rem;
     }
 }
 

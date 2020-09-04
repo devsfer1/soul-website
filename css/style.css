@@ -1,30 +1,30 @@
 /* === Wrapper's, Váriaveis, Containers etc === */
 .main-container {
     margin: 0 auto;
-    padding: 0 60px;
+    padding: 0 3.75em;
 }
 
 @media(max-width: 2800px) {
     .main-container {
-        padding: 0 220px;
+        padding: 0 13.75em;
     }
 }
 
 @media(max-width: 1980px) {
     .main-container {
-        padding: 0 80px;
+        padding: 0 5em;
     }
 }
 
 @media(max-width: 1024px) {
     .main-container {
-        padding: 0 40px;
+        padding: 0 2.5em;
     }
 }
 
 @media(max-width: 768px) {
     .main-container {
-        padding: 0 20px;
+        padding: 0 1.25em;
     }
 }
 
@@ -43,7 +43,7 @@ header {
 .nav-logo {
     font-weight: bold;
     color: var(--cor-principal);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 
@@ -63,7 +63,7 @@ header {
 }
 
 .nav-items-list {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 1.875em;
 }
 
 .nav-link {
@@ -88,7 +88,7 @@ header {
 .home-container {
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 60px;
+    margin-bottom: 3.75em;
 }
 
 .home-img {
@@ -109,7 +109,7 @@ header {
 .home-text-subtitle {
     letter-spacing: 0.06em;
     color: #1a1919;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
     max-width: 60ch;
     line-height: 32px;  
 }
@@ -132,13 +132,13 @@ header {
     width: 100%;
     background-color: var(--cor-secundaria);
     color: #FFFFFF;
-    padding: 60px 0px;
+    padding: 3.75em 0px;
 }
 
 .banner-1-title {
     margin-bottom: 40px;
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 400;   
     text-align: center;
 }
 
@@ -155,32 +155,32 @@ header {
 #sobre {
     margin-bottom: 40px;
 }
+
 .sobre-container {
     display: flex;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin: 3.75em 0 5em 0;
 }
 
 .sobre-img{
     flex: 50%;
     height: auto; 
-    margin-right: 40px;
+    margin-right: 2.5em;
 }
 
 .sobre-text {
-    padding-top: 80px;
+    padding-top: 5em;
     flex: 40%;
 }
 
 .sobre-text-title {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
     font-weight: 400;
 }
 
 .sobre-text-subtitle {
     letter-spacing: 0.06em;
     line-height: 32px;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
     max-width: 50ch;
     font-weight: 300;
 }
@@ -203,20 +203,20 @@ header {
 
 .sobre-card-icon {
     display: block;
-    margin: 20px auto;
+    margin: 1.25em auto;
 }
 
 .sobre-card-title {
     text-align: center;
     color: var(--cor-secundaria);
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 .sobre-card-subtitle {
     color: var(--cor-secundaria);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -226,13 +226,13 @@ header {
     background-color: var(--cor-secundaria);
     color: #FFFFFF;
     margin: 0 auto;
-    padding: 30px 60px;
+    padding: 1.875em 3.75em;
     display: flex;
     align-items: center;
 }
 
 .banner-2-title {
-    margin-right: 80px;
+    margin-right: 5em;
     font-weight: 400;
 }
 
@@ -250,14 +250,14 @@ header {
 
 /* === Serviços === */
 #serviços {
-    margin-bottom: 60px;
+    margin-bottom: 3.75em;
 }
 
 .serviços-img {
     width: 100%;
     max-width: 700px;
     height: auto;  
-    margin-bottom: 40px; 
+    margin-bottom: 2.5em; 
 }
 
 .serviços-card-container {
@@ -270,7 +270,7 @@ header {
     width: 300px;
     height: 500px;
     box-shadow: 0px 0px 7px 1px rgba(120,172,255,0.32);
-    margin: 0 30px 20px 0px;
+    margin: 0 1.875em 1.25em 0px;
     border-radius: 10px;
     padding: 30px;
     display: flex;
@@ -279,9 +279,9 @@ header {
 
 .serviço-card-title {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-secundaria);
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 .serviço-card-title::after {
@@ -290,14 +290,14 @@ header {
     width: 20%;
     height: 2px;
     background-color: var(--cor-secundaria);
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 
 .serviço-card-preço {
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--cor-secundaria);
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 
 .serviço-card-btn {
@@ -308,7 +308,7 @@ header {
     border-radius: 40px;
     transition: ease 0.5s;    
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 5em;
     transition: ease 0.5s;
 }
 
@@ -318,7 +318,7 @@ header {
 
 .serviço-card-detalhes {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 .card-img {
@@ -327,7 +327,7 @@ header {
 }
 
 .card-detalhes-text {
-    margin-left: 10px;
+    margin-left: 0.625em;
     color: var(--cor-secundaria);
 }
 
@@ -335,7 +335,7 @@ header {
 /* === Equipe === */
 .equipe-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 6.25em;
 }
 
 .equipe-img {
@@ -344,31 +344,30 @@ header {
 }
 
 .equipe-text {
-    margin-top: 70px;
+    margin-top: 4.375em;
     flex: 20%;
     justify-self: center;
     align-self: center;
 }
 
 .equipe-text-title {
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 
 .equipe-text-subtitle {
     max-width: 50ch; 
-    margin-bottom: 40px;  
+    margin-bottom: 2.5em;  
     line-height: 32px;
 }
 
 .equipe-btn-1 {
-    margin-right: 40px;
+    margin: 0 2.5em 1.25em 0;
     background-color: var(--cor-secundaria);
     color: #FFFFFF;
     padding: 15px 40px; 
     border-radius: 40px;
     transition: ease 0.5s;
     display: inline-block;
-    margin-bottom: 20px;
 }
 
 .equipe-btn-1:hover {
@@ -400,20 +399,19 @@ header {
 
 .contato-text {
     color: #FFFFFF;
-    margin-top: 90px;
+    margin-top: 5.625em;
     flex: 40%;
     justify-self: center;
 }
 
 .contato-text-title {
-    margin-bottom: 30px;
-    font-size: 48px;
+    margin-bottom: 1.875em;
 }
 
 .contato-text-subtitle {
     max-width: 40ch;
     line-height: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 
 .contato-btn {
@@ -433,7 +431,7 @@ header {
 footer {
     width: 100%;
     background-color: var(--cor-secundaria);
-    padding: 60px 0 60px 0;
+    padding: 3.75em 0;
 }
 
 .footer-copy {

@@ -32,28 +32,28 @@ p {
 }
 
 a,p {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
 @media(max-width: 600px) {
-    a,p {font-size: 14px}
+    a,p {font-size: 0.875rem}
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 @media(max-width: 1225px) {
-    h1 {font-size: 32px;}
+    h1 {font-size: 2rem;}
 }
 
 
 h2 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 @media(max-width: 1225px) {
-    h2 {font-size: 24px;}
+    h2 {font-size: 1.5rem;}
 }
 
