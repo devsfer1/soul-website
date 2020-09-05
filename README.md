@@ -3,9 +3,8 @@
 
 Consegui treinar muitos elementos de Design médio e avançado nesse projeto como tipografia, esquema de cores etc. Foi feito com muito carinho, espero que goste :)
  </p>
- <br><br><br>
- 👉<a href="https://devsfe.github.io/soul-website/">Acesse a Demonstração aqui. </a>
- <br>
+<hr>
+ 👉<a href="https://devsfe.github.io/soul-website/">Acesse a Demonstração aqui. </a><br><br>
  👉<a href="https://www.figma.com/file/vbkG5i7rqIuqjBMj09NKeC/Soul-Website">Acesse o Design aqui. </a>
 
 
