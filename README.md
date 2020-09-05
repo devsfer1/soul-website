@@ -4,6 +4,7 @@
 
 Consegui treinar muitos elementos de Design médio e avançado nesse projeto como tipografia, esquema de cores etc. Foi feito com muito carinho, espero que goste :)
  </p>
+ <p>👉 Demo: <a href="https://devsfe.github.io/soul-website/"></a></p>
  </center>
 
 
