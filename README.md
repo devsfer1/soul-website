@@ -13,7 +13,6 @@ Consegui treinar muitos elementos de Design médio e avançado nesse projeto com
 
 ![Mobile](https://user-images.githubusercontent.com/58652794/92307276-98a96980-ef6b-11ea-8213-979970200966.png)
 
-```html
 <h2>Example of code</h2>
 
 <pre>
@@ -26,5 +25,5 @@ Consegui treinar muitos elementos de Design médio e avançado nesse projeto com
         </div>
     </div>
 </pre>
-```
+
  
