@@ -1,3 +1,20 @@
+<h1>Soul - Website</h1>
+<p>Neste projeto pude desenhar o Design e programar um bélissimo site no estilo landing page utilizando apenas Html e CSS.
+
+Consegui treinar muitos elementos de Design médio e avançado nesse projeto como tipografia, esquema de cores etc. Foi feito com muito carinho, espero que goste :)
+ </p>
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>Your title</h2>
+            <div class="wrap">
+            //Your content
+            </div>
+        </div>
+    </div>
+</pre>
+
+
 # Soul - Website
 
 Neste projeto pude desenhar o Design e programar um bélissimo site no estilo landing page utilizando apenas Html e CSS.
@@ -13,17 +30,5 @@ Consegui treinar muitos elementos de Design médio e avançado nesse projeto com
 
 ![Mobile](https://user-images.githubusercontent.com/58652794/92307276-98a96980-ef6b-11ea-8213-979970200966.png)
 
-<h2>Example of code</h2>
-
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
 
  
