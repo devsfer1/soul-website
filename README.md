@@ -1,5 +1,5 @@
 <center>
-<h1>Soul - Website</h1>
+<h1 style="text-align: center;">Soul - Website</h1>
 <p>Neste projeto pude desenhar o Design e programar um bélissimo site no estilo landing page utilizando apenas Html e CSS.
 
 Consegui treinar muitos elementos de Design médio e avançado nesse projeto como tipografia, esquema de cores etc. Foi feito com muito carinho, espero que goste :)
