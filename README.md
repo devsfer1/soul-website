@@ -3,14 +3,10 @@
 
 Consegui treinar muitos elementos de Design médio e avançado nesse projeto como tipografia, esquema de cores etc. Foi feito com muito carinho, espero que goste :)
  </p>
- <a href="https://devsfe.github.io/soul-website/">Acesse a Demonstração aqui. </a>
-
-
-
-
-#### 👉 Demo: <https://devsfe.github.io/soul-website/>
-
-#### 👉 Design: <https://www.figma.com/file/vbkG5i7rqIuqjBMj09NKeC/Soul-Website>
+ <br><br><br>
+ 👉<a href="https://devsfe.github.io/soul-website/">Acesse a Demonstração aqui. </a>
+ <br>
+ 👉<a href="https://www.figma.com/file/vbkG5i7rqIuqjBMj09NKeC/Soul-Website">Acesse o Design aqui. </a>
 
 
 ![Desktop](https://user-images.githubusercontent.com/58652794/92307105-5895b700-ef6a-11ea-9e56-55a4745b84b4.png)
