@@ -12,4 +12,19 @@ Consegui treinar muitos elementos de Design médio e avançado nesse projeto com
 ![Desktop](https://user-images.githubusercontent.com/58652794/92307105-5895b700-ef6a-11ea-9e56-55a4745b84b4.png)
 
 ![Mobile](https://user-images.githubusercontent.com/58652794/92307276-98a96980-ef6b-11ea-8213-979970200966.png)
+
+```html
+<h2>Example of code</h2>
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>Your title</h2>
+            <div class="wrap">
+            //Your content
+            </div>
+        </div>
+    </div>
+</pre>
+```
  
