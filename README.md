@@ -6,7 +6,7 @@ Consegui treinar muitos elementos de Design médio e avançado nesse projeto com
  👉<a href="https://devsfe.github.io/soul-website/">Acesse a Demonstração aqui. </a><br><br>
  👉<a href="https://www.figma.com/file/vbkG5i7rqIuqjBMj09NKeC/Soul-Website">Acesse o Design aqui. </a>
 
- <img href="../Desktop.png">
+ <img src="../../Desktop.png" alt="">
 
 
 ![Desktop](https://user-images.githubusercontent.com/58652794/92307105-5895b700-ef6a-11ea-9e56-55a4745b84b4.png)
