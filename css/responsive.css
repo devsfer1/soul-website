@@ -115,7 +115,6 @@
    }
 }
 
-
 @media(max-width: 900px) {  
     .sobre-container {
         flex-direction: column;
@@ -230,4 +229,4 @@
     }
 }
 
-/* === Footer === */
+
